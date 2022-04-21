@@ -25,7 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Application/Application.csproj": {
+                "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Application/Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,6 +61,173 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Application/Application.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj": {
+                "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj"
+              },
+              "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Infra/Infra.csproj": {
+                "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Infra/Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Infra/Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Infra/Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Infra/Infra.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj": {
+                "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

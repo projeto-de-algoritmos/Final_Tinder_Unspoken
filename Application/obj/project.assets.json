@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infra.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Infra/1.0.0": {
+      "type": "project",
+      "path": "../Infra/Infra.csproj",
+      "msbuildProject": "../Infra/Infra.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Domain >= 1.0.0",
+      "Infra >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/user/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj": {
+              "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Domain/Domain.csproj"
+            },
+            "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Infra/Infra.csproj": {
+              "projectPath": "/home/user/Documentos/UnB/2021.2/PA/Final/Final_Tinder_Unspoken/Infra/Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
