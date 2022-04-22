@@ -1,0 +1,14 @@
+﻿[
+  {
+    "UserId": 1,
+    "Preferencies": {
+      "Bar": 1,
+      "Show": 2,
+      "Cinema": 3,
+      "Casa": 4,
+      "Restaurante": 5
+    },
+    "Id": 1,
+    "CreatedAt": "2022-04-22T14:44:24.5840662-03:00"
+  }
+]

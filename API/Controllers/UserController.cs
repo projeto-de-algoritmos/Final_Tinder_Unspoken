@@ -33,7 +33,7 @@ namespace API.Controllers
 
 /*
 {
-  "email": "teste",
+  "email": "teste2",
   "friendsList": null,
   "preferences": {
     "fun": {

@@ -6,16 +6,16 @@ using Domain.Models;
 
 namespace Infra.Storage
 {
-    public class JsonStorage<T> where T : User
+    public class JsonStorage<T> where T : Register
     {
         private readonly string _filePath;
         private readonly JsonSerializerOptions _jsonSerializerOptions;
         private readonly List<T> _context;
-        private readonly JsonStorageOptions _options;
+        private readonly JsonStorageOptions<T> _options;
         public IEnumerable<T> Context => _context;
         public JsonStorage()
         {
-            _options = new JsonStorageOptions();
+            _options = new JsonStorageOptions<T>();
             _filePath = _options.FilePath;
             _jsonSerializerOptions = new JsonSerializerOptions()
             {

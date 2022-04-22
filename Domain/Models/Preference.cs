@@ -2,9 +2,10 @@ using System.Collections.Generic;
 
 namespace Domain.Models
 {
-    public class Preference
+    public class Preference:Register
     {
-        public  Dictionary<string,int> Fun { get; set;} = new Dictionary<string, int>()
+        public int UserId { get; set; }
+        public  Dictionary<string,int> Preferencies { get; set;} = new Dictionary<string, int>()
         {
             {"Bar",0},
             {"Show",0},
@@ -12,13 +13,12 @@ namespace Domain.Models
             {"Casa",0},
             {"Restaurante",0},
         };
-        public  Dictionary<string,int> Hobbie { get; set; } = new Dictionary<string, int>()
+
+        public Preference(int userId, Dictionary<string, int> preferencies)
         {
-            {"Ler",0},
-            {"Filmes",0},
-            {"Series",0},
-            {"Esportes",0},
-        };        
+            UserId = userId;
+            Preferencies = preferencies;
+        }
     }
 }
 
