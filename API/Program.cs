@@ -1,4 +1,5 @@
 using Application.Services;
+using Application.Utils;
 using Domain.Models;
 using Infra.Storage;
 
@@ -8,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<JsonStorage<User>>();
 builder.Services.AddScoped<JsonStorage<Preference>>();
+builder.Services.AddScoped<InversionCounter>();
+builder.Services.AddScoped<GetRecommendation>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

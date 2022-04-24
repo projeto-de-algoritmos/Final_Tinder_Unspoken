@@ -10,5 +10,53 @@
     },
     "Id": 1,
     "CreatedAt": "2022-04-22T14:44:24.5840662-03:00"
+  },
+  {
+    "UserId": 2,
+    "Preferencies": {
+      "Bar": 1,
+      "Show": 3,
+      "Cinema": 4,
+      "Casa": 2,
+      "Restaurante": 5
+    },
+    "Id": 2,
+    "CreatedAt": "2022-04-22T15:00:31.487906-03:00"
+  },
+  {
+    "UserId": 3,
+    "Preferencies": {
+      "Bar": 1,
+      "Show": 4,
+      "Cinema": 3,
+      "Casa": 2,
+      "Restaurante": 5
+    },
+    "Id": 3,
+    "CreatedAt": "2022-04-23T07:50:11.3346629-03:00"
+  },
+  {
+    "UserId": 4,
+    "Preferencies": {
+      "Bar": 5,
+      "Show": 4,
+      "Cinema": 3,
+      "Casa": 2,
+      "Restaurante": 1
+    },
+    "Id": 4,
+    "CreatedAt": "2022-04-23T07:50:11.3346629-03:00"
+  },
+  {
+    "UserId": 5,
+    "Preferencies": {
+      "Bar": 1,
+      "Show": 3,
+      "Cinema": 4,
+      "Casa": 2,
+      "Restaurante": 5
+    },
+    "Id": 5,
+    "CreatedAt": "2022-04-23T07:50:11.3346629-03:00"
   }
 ]

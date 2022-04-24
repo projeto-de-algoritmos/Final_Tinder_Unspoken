@@ -1,8 +1,36 @@
 ﻿[
   {
-    "Email": "teste2",
-    "FriendsList": null,
+    "Email": "teste1",
+    "FriendsList": [],
     "Id": 1,
     "CreatedAt": "2022-04-22T14:44:22.9368276-03:00"
+  },
+  {
+    "Email": "teste2",
+    "FriendsList": [
+      3,
+      4,
+      5
+    ],
+    "Id": 2,
+    "CreatedAt": "2022-04-22T15:00:31.4877246-03:00"
+  },
+  {
+    "Email": "teste3",
+    "FriendsList": [],
+    "Id": 3,
+    "CreatedAt": "2022-04-23T07:50:09.2295067-03:00"
+  },
+  {
+    "Email": "teste4",
+    "FriendsList": [],
+    "Id": 4,
+    "CreatedAt": "2022-04-23T07:50:09.2295067-03:00"
+  },
+  {
+    "Email": "teste5",
+    "FriendsList": [],
+    "Id": 5,
+    "CreatedAt": "2022-04-23T07:50:09.2295067-03:00"
   }
 ]

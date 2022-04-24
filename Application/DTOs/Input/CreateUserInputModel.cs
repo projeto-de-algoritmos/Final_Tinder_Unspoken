@@ -5,10 +5,10 @@ namespace Application.DTOs.Input
     public class CreateUserInputModel
     {
         public string Email { get; set; }
-        public List<User> FriendsList { get; set; }
+        public List<int> FriendsList { get; set; }
         public Preference Preferences { get; set; }
 
-        public CreateUserInputModel(string email, List<User> friendsList, Preference preferences)
+        public CreateUserInputModel(string email, List<int> friendsList, Preference preferences)
         {
             Email = email;
             FriendsList = friendsList;

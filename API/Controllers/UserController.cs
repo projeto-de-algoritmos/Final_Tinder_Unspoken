@@ -1,4 +1,5 @@
 using Application.DTOs.Input;
+using Application.DTOs.View;
 using Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,6 +22,20 @@ namespace API.Controllers
             {
                 await _userService.CreateUser(createUser);
                 return NoContent();
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest($"{ex.Message}");
+            }
+        }
+        [Route("{userId}")]
+        [HttpPost]
+        public async Task<ActionResult<GetRecommendationViewModel>> AddFriend([FromRoute]  int userId,[FromBody] int friendId)
+        {
+            try
+            {
+                GetRecommendationViewModel recommendations = await _userService.AddFriend(userId,friendId);
+                return Ok(recommendations);
             }
             catch (System.Exception ex)
             {
